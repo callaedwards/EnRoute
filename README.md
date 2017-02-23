@@ -11,9 +11,11 @@ public class EnRoute
     public static void main (String [] args)
     {
         Scanner console = new Scanner(System.in);
+        
         System.out.println("Hall:");
         String walk = console.nextLine();
         int salutes=0;
+        
         while (walk.indexOf(">") < 0 || walk.indexOf("<") < 0){
             System.out.println("Try again");
             System.out.println("Hall: ");
